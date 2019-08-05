@@ -1,0 +1,76 @@
+<!DOCTYPE html> <!--Forma de declarar que dentro de documento se va a escribir HTML 5-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"> <!--Se está definiendo el tipo de tipografía que se va a utilizar dentro de la página-->
+
+		<title>Document</title>
+		<!-- 
+		Lo que puede contener la etiqueta HEAD {
+			enlazar archivos css
+			enlazar archivos js
+
+			añadir fuentes externas
+			metadatos (keywords, descriptions, robots, author, owner)
+		}
+		 -->
+		 <nav><!--Es importante que el menú de navegación de la página se encuentre entre las etiquetas "nav" para que el buscador web reconozca cúal es el menú de la página-->
+		 	<ul> <!-- Listas sin orden, se <ol> son listas ordenadas 1, 2, 3-->
+		 		<li></li>
+		 		<li></li>
+		 		<li></li>
+		 		<li></li>
+		 	</ul>
+		 </nav>
+	</head>
+<body>
+	<header>
+		<!-- 
+		Lo que puede contener el HEADER {
+			logotipo
+			nombre -> h1
+			nav
+			banner
+		}
+		-->
+
+
+		<h1>Título principal</h1>  <!--Es importante que el H1 se encuentre dentro de la etiqueta HEADER debido que a nivel de posicionamiento SEO en buscadores tiene más impacto -->
+
+
+	</header>
+
+	<h2>Título secundario 1</h2>
+	<h2>Título secundario 2</h2>
+	<h2>Título secundario 3</h2>
+	<h3>Título h3</h3>
+	<h4>Título h4</h4>
+	<h5>Título h5</h5>
+
+	<hgroup></hgroup> <!--Agrupa titulos "<h1> <h2>..." dentro de una etiqueta para que los buscadores relacionen un titulo con otro. Es imporante no tener mas de un H1 dentro de la pagina ya que pierde relevancia-->
+
+		<a target="_blank" href="#">Click</a> <!--target="_blank" se utiliza para abrir el enlace en una pestaña nueva-->
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span>Linea insertada dentro del párrafo</span> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><!--La etiqueta span se utiliza para insertar una palabra o frase dentro de un párrafo y destacarla con estilos (Colores, formas, fuentes etc)-->
+
+		<strong></strong>
+		<em></em>
+		<!--Etiquetas STRONG y EM se utilizan para dar mayor fuerza a una frase dentro del posicionamiento SEO de la página, siendo STRONG la etiqueta que le da mayor importancia y EM la que la define como una frase o palabra mas especifica, si bien esto cambia el diseño de la fuente (bolde italica respectivament) su importancia radica en un valor semantico para las palabras y no en diseño-->
+
+		<!--Procurar no utilizar etiqueta <br> en su defecto tratar de realizar saltos de lineas o espacios utilizando estilos-->
+
+		<section>
+			<article></article>
+		</section>
+		<!--Los section incluyen varios elementos que entre si ya se encuentran realcionados, los article incluyen una serie de elemntos que se relacionan entre si, un ejemplo para section podria ser los videos de sugerencia de youtube cuando ingresamos a su portal, y un ejemplo de section seria el recuadro donde se encuentra la miniatura del video, con otros detalles como duracion, titulo, nombre del canal que subio el video-->
+		<aside></aside>
+		<!--La etiqueta aside se utiliza para hacer referencia a otro contenido dentro de una página, por ejemplo, cuando en youtube se ingresa a un video en el lado derecho de la pagina nos muestra una lista de videos a modo de sugerencia. Esto es un aside debido a que la información que ahi aparece no esta relacionada con el tema que se esta hablando en la pagina, donde todo lo demas si esta realcionado (duracion del video, titulo, comentarios... etc)-->
+
+		<figure>
+			<img src="" alt="">
+			<figcaption></figcaption>
+		</figure>
+		<!--En HTML5 se agrega la etiqueta figure, la cual sirve para englobar el contenido de una imagen con otras etiquetas que se puenda asociar, como es el caso de figcaption la cual se utiliza para agregar un pie de imagen o alguna referencia en texto para la imagen. Tambien es importante rellenar el atributo ALT dentro de img, debido a que asi lo demanda la normativa de HTML5, este atributo sirve para asociar un texto a la imagen, el cual se muestra al colocar el puntero sobre la imagen mencionada-->
+
+
+</body>
+</html>
