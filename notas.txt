@@ -1,0 +1,1 @@
+Normalize.css: archivo que se puede descargar desde google para normalizar los estilos en todos los navegadores
