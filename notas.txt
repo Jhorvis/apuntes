@@ -1,2 +1,3 @@
 Normalize.css: archivo que se puede descargar desde internet para normalizar los estilos en todos los navegadores
 Modernizr.js: archivo que se puede descarga internet que sirve para aplicar en versiones antiguas de navegadores caracteristicas modernas de CSS, HTML, JS.
+El portal caniuse.com muestra la compatibilidad de las propiedades css sobre los navegadores existentes
